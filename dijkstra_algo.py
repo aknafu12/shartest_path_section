@@ -34,7 +34,7 @@ def dijkstra(graph, start, end):
     path = path[::-1]
     return path
 
-# Example graph represented as a dictionary of dictionaries
+# test case of graph represented as a dictionary of dictionaries
 graph = {
     'A': {'B': 1, 'C': 4},
     'B': {'A': 1, 'C': 2, 'D': 5},
